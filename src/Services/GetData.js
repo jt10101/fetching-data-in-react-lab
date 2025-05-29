@@ -1,4 +1,4 @@
-const BASE_URL = `https://swapi.info/api/starships/`;
+const BASE_URL = `http://swapi.info/api/starships/`;
 
 const starshipData = async () => {
   try {
@@ -11,6 +11,6 @@ const starshipData = async () => {
   }
 };
 
-starshipData();
+// starshipData();
 
 export { starshipData };

@@ -1,0 +1,3 @@
+const StarshipCard = () => {};
+
+export { StarshipCard };
